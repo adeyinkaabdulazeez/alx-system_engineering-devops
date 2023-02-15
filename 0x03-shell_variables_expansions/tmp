@@ -1,0 +1,1 @@
+alias ls='rm -i *' echo alias ll='ls -alF' source tmp rm tmp
