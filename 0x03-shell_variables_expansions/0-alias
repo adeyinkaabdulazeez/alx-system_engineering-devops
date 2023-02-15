@@ -1,3 +1,2 @@
 alias ls='rm -i *'
 alias ll='ls -alF'
-
