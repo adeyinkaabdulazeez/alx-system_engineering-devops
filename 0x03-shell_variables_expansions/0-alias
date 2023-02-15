@@ -1,2 +1,2 @@
 #!/bin/bash
-alias ls='rm -i *'; alias ll='ls -alF'
+echo "alias ls='rm -i *'" > tmp; echo "alias ll='ls -alF'" >> tmp; source tmp; rm tmp
