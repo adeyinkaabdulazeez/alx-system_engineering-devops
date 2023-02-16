@@ -1,2 +1,2 @@
 #!/bin/bash
-tr 'echo {a..z} | tr -d' " 'echo {n..z} $(cho {a..m} | tr -d'" | t'echo {A}
+echo "secret message" | tr 'A-Za-z' 'N-ZA-Mn-za-m'
